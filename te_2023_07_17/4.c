@@ -5,10 +5,8 @@ compresi tra 0 e 20, che rappresentano la valutazione, nell'ordine, della forza,
 dell'atleta.
 
 Ad esempio, un file di questo tipo potrebbe contenere i dati:
-tizio
-14 15 6 8
-caio
-10 12 10 12
+tizio 14 15 6 8
+caio 10 12 10 12
 sempronio 12 14 18 11
 
 Per costituire una squadra, è necessario che gli atleti siano dotati di caratteristiche compatibili fra loro. A tale
