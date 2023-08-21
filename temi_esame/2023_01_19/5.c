@@ -107,7 +107,7 @@ exercise *extend(exercise *e, int count, int toadd)
     // Alloca un nuovo array di count + toadd elementi
     exercise *r = malloc(sizeof(exercise) * (count + toadd));
 
-    memset(r, 0, sizeof(exercise) * (count + toadd)); /* inizializza a 0 */
+    memet(r, 0, sizeof(exercise) * (count + toadd)); /* inizializza a 0 */
 
     // Copia gli elementi di e in r
     for (i = 0; i < count; i++)
